@@ -1,0 +1,10 @@
+{
+  "schemaVersion": 1,
+  "id": "cfpredict",
+  "version": "${version}",
+  "name": "CF Predictor",
+  "description": "Pattern based coinflip HUD",
+  "environment": "client",
+  "entrypoints": { "client": ["cfpredict.CfPredict"] },
+  "depends": { "fabricloader": ">=0.16.0", "minecraft": "1.21.x", "fabric-api": "*" }
+}
